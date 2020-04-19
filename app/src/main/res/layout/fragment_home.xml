@@ -5,18 +5,11 @@
     android:layout_height="match_parent"
     tools:context=".fragments.HomeFragment"
     >
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
-        android:layout_gravity="center"
-        android:src="@drawable/ic_home"
-        />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
 
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="100dp"
-        android:text="home" />
+    </androidx.recyclerview.widget.RecyclerView>
 </FrameLayout>
